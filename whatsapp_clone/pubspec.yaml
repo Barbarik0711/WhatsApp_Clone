@@ -1,0 +1,57 @@
+name: whatsapp_clone
+description: "WhatsApp Clone  Flutter"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  emoji_picker_flutter: ^4.3.0
+  shared_preferences: ^2.5.3
+  flutter_svg: ^2.2.1
+  json_annotation: ^4.9.0
+  http: ^1.5.0
+  camera: ^0.11.3
+  path: ^1.9.1  
+  path_provider: ^2.1.5
+  video_player: ^2.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/svg/group.svg
+    - assets/svg/person.svg
+   
+
+ 
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora/static/Lora-Regular.ttf
+        - asset: assets/fonts/Lora/static/Lora-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Lora/static/Lora-Bold.ttf
+          weight: 700
+  
+ 
