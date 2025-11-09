@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp_clone",
+  "version": "1.0.0",
+  "description": "WhatsAppCloneServer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barbarik0711/WhatsApp_Clone.git"
+  },
+  "author": "VishalChavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barbarik0711/WhatsApp_Clone/issues"
+  },
+  "homepage": "https://github.com/Barbarik0711/WhatsApp_Clone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  }
+}
